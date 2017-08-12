@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "WhatsAuth (WhatsApp Web Auth Module)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouravAggarwal/WhatsAuth.git"
+  },
+  "keywords": [
+    "Whatsapp",
+    "whatsapp",
+    "web"
+  ],
+  "author": "srvaggarwal96@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "njwt": "^0.4.0",
+    "qrcode": "^0.8.2",
+    "secure-random": "^1.1.1",
+    "socket.io": "^2.0.3",
+    "socketio-jwt": "^4.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SouravAggarwal/WhatsAuth/issues"
+  },
+  "homepage": "https://github.com/SouravAggarwal/WhatsAuth#readme"
+}
