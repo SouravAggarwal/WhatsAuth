@@ -15,5 +15,7 @@ This can be Integrated with any Web Application Project for Authentication Puspo
 4. Import Android Project in Android Studio then Generate and Install Android App in Mobile Device.
 5. Angular Application shows the QR code which refreshes in every 5 seconds.
 6. Scan the QR code from mobile device.
-7. This will send SocketId, both Client info (Android and Angular App) s
+7. This will send SocketId, Timestamp and some meta Information for both Client (Android and Angular App).
+8. If everything is fine, it will give access to your personalised web portal.
+9. JWT (JSON web Token) expires and Socket Ids are removed from DB on Logout/ 3hrs. 
 
